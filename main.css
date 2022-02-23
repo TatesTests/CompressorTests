@@ -1,5 +1,5 @@
 @import url("other.css");
-@import url("imports-only.css")  
+@import url("imports-only.css");
 
 div {
   background-color: red;
