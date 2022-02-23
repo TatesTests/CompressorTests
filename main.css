@@ -1,0 +1,9 @@
+@import("other.css")
+  
+div {
+  background-color: red;  
+}
+
+.main {
+  background-color: green;
+}
