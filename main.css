@@ -1,7 +1,10 @@
 @import url("other.css");
-  
+@import url("imports-only.css")  
+
 div {
-  background-color: red;  
+  background-color: red;
+  height: 20px;
+  width: 90vw;
 }
 
 .main {
