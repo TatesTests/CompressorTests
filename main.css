@@ -1,4 +1,4 @@
-@import("other.css")
+@import url("other.css")
   
 div {
   background-color: red;  
