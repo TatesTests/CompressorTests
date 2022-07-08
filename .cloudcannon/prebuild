@@ -1,0 +1,2 @@
+pipenv install
+pipenv run pelican-quickstart --path __site
