@@ -7,9 +7,9 @@
     Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property
     - The "symbol *" part is to solve Firefox SVG sprite bug
  */
-    .pagefind-ui--reset
+    :global(.pagefind-ui--reset
             *:where(:not(html, iframe, canvas, img, svg, video):not(svg
-                    *, symbol *)) {
+                    *, symbol *))) {
         all: unset;
         display: revert;
     }
