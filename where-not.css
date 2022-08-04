@@ -1,1 +1,3 @@
-.where-not *:where(div)
+.where-not *:where(div){
+  color: green;
+}
