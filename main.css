@@ -1,6 +1,6 @@
 @import url("other.css");
 @import url("imports-only.css");
-@import url("where-not.css")
+@import url("where-not.css");
 
 div {
   background-color: red;
